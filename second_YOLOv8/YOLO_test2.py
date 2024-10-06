@@ -6,7 +6,7 @@ from ultralytics import YOLO
 from PIL import Image
 
 # Load the YOLOv8 model (use your trained model path here)
-model = YOLO('C:/Users/chira/PycharmProjects/fresh_fruits_veg/second_YOLOv8/best.pt')
+model = YOLO('../fresh_fruits_veg/second_YOLOv8/best.pt')
 
 
 # Set up the Streamlit interface
